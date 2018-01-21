@@ -6,6 +6,10 @@ function nestedTarget() {
   return document.querySelector('#nested .target')
 }
 
+function deepestChild('div grand-node') {
+  console.log(deepestChild().innerHTML)
+}
+
 function increaseRankBy(n){
   const rankedLists = document.querySelectorAll('.ranked-list')
   const firstList = rankedLists[0]
